@@ -40,8 +40,10 @@ Kenntnisse
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
+Die Funktion von Story 2.2 wurde erfolgreich implementiert
 
 Gibt es Probleme?
+Aktuell läuft noch alles nach Plan
 
 
 
