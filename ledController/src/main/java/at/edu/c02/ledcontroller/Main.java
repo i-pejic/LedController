@@ -3,6 +3,7 @@ package at.edu.c02.ledcontroller;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Main {
     /**
@@ -28,6 +29,18 @@ public class Main {
                 System.out.println("Please specify LED id");
                 input = reader.readLine();
                 ledController.getLight(Integer.parseInt(input));
+            }
+            else if (input.equalsIgnoreCase("groupstatus")) {
+                String[] result = new String[0];
+                try {
+                    result = ledController.getGroupLeds();
+                    for (int i = 0; i < result.length; i++) {
+                        System.out.println(result[i]);
+                    }
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+
             }
         }
     }
