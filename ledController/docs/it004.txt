@@ -32,8 +32,11 @@ Vorkommnisse/Bemerkungen:
 -------------------------------------------------------------------------
 Meeting 1:
 Wie geht es voran, wer arbeitet an was?
+Story 2.2 ist noch nicht abgeschlossen, aber es gibt Fortschritte
 
 Gibt es Probleme?
+Probleme gibte es dieses mal (noch) keine, außer die zu geringen Java
+Kenntnisse
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
