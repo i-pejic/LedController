@@ -10,6 +10,7 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         LedController ledController = new LedControllerImpl(new ApiServiceImpl());
+        ApiService apiController = new ApiServiceImpl();
 
         String input = "";
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -22,6 +23,11 @@ public class Main {
             if(input.equalsIgnoreCase("demo"))
             {
                 ledController.demo();
+            }
+            else if (input.equalsIgnoreCase("status")) {
+                System.out.println("Please specify LED id");
+                input = reader.readLine();
+                ledController.getLight(Integer.parseInt(input));
             }
         }
     }
