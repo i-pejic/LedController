@@ -60,16 +60,21 @@ noch kurz die API besprochen werden musste.
 
 4. Sprint-Retrospektive
 -------------------------------------------------------------------------
+Wie ist der Sprint gelaufen?
+Der Sprint ist alles andere als optimal gelaufen.
+Wir haben generell keine Java Entwickler im Team, somit gestaltete sich die
+Umsetzung schwierig.
+Zwei Teamkollegen kamen erst später dazu, somit zusätzlicher Aufwand
+während des Sprints (Framework einrichten, API erklären, einarbeiten
+usw.)
+Diese Umstände wurden bei der Sprintplanung nicht berücksichtigt,
+was zu einer völlig fehleingeschätzten Planung führte.
+
+Wurde alles geschafft?
 Story 1.1 und 1.2 konnten fertiggestellt, aber nicht getestet werden
 Story 1.3 wurde begonnen, konnte dann aber aus zeitlichen Gründen
 nicht fertiggestellt werden.
 
-Die größte Probleme waren:
-Generell keine Java Entwickler im Team, somit gestaltete sich die
-Umsetzung schwieriger.
-Zweit Teamkollegen kamen erst später dazu, somit zusätzlicher Aufwand
-während des Sprints (Framework einrichten, API erklären, einarbeiten
-usw.)
-
-Diese Umstände wurden bei der Sprintplanung nicht berücksichtigt,
-was zu einer völlig fehleingeschätzten Planung führte.
+Was kann in den nächsten Sprints verbessert werden?
+Äußere Umstände (keine Java Entwickler, später eingetroffen etc.),
+bei der Planung mitbeachten.
