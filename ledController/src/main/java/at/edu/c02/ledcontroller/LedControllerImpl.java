@@ -17,7 +17,7 @@ public class LedControllerImpl implements LedController {
     }
 
     @Override
-    public String[] getGroupLeds() throws Exception {
+    public String[] getGroupLeds() throws IOException {
         JSONObject lightsResponse = apiService.getLights();
         JSONArray lightsArray = lightsResponse.getJSONArray("lights");
 
@@ -27,10 +27,9 @@ public class LedControllerImpl implements LedController {
             JSONObject light = lightsArray.getJSONObject(i);
             int id = light.getInt("id");
             String color = light.getString("color");
-            boolean isGrouped = light.getBoolean("isGrouped");  // Annahme: Annahme, dass "isGrouped" ein boolean-Wert ist.
-
+            // String group = light.getString("groupByGroup");
             // Add information to the result ArrayList
-            result.add("Light ID: " + id + ", Color: " + color + ", Grouped: " + isGrouped);
+            result.add("Light ID: " + id + ", Color: " + color );
         }
 
         // Convert the ArrayList to an array
