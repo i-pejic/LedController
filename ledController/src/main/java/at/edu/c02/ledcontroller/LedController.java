@@ -6,5 +6,6 @@ public interface LedController {
     String[] getGroupLeds() throws Exception;
 
     void demo() throws IOException;
+    void getLight(int id) throws IOException;
 }
 
