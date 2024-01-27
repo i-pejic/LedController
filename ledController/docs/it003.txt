@@ -37,7 +37,7 @@ Gruppe 2 bereitet den Test für Story 2.1 vor, da Umsetzung von
 Gibt es Probleme?
 Wir haben nicht damit gerechnet, dass die Bearbeitung unsrer noblen
 Anfrage nach einem secret key, welcher uns von nöten ist, soviel Zeit in
-Anspruch nimmt. Wir abermals unnotwendig Zeit verloren, die Anfrage nach
+Anspruch nimmt. Wir haben abermals unnotwendig Zeit verloren, die Anfrage nach
 dem geheimen Schlüssel hätte schon früher erfolgen sollen, doch daran hat
 niemand gedacht.
 
