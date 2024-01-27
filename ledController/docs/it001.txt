@@ -23,12 +23,36 @@ Abhängigkeiten der Stories:
 Story 1.3 hängt von Story 1.1 und Story 1.2 ab
 
 
+
 2. Sprint (Umsetzung)
 -------------------------------------------------------------------------
+Vorkommnisse/Bemerkungen:
+Sichtschutzfolie sind eher suboptimal für Pair-Programming :D
+
 
 
 3. Daily Scrum Meetings
 -------------------------------------------------------------------------
+Meeting 1:
+Wie geht es voran, wer arbeitet an was?
+Die Gruppen arbeiten an den eingeplanten Stories, zusätzlich wird
+weiter mitdokumentiert.
+
+Gibt es Probleme?
+Da zwei Kollegen zu spät gekommen sind, fehlen nun die zu Beginn
+gezeigten Grundlagen - diese mussten/müssen nun erst erarbeitet werden.
+Die Dukomentation ist mit weiterem Aufwand verbunden
+
+Meeting 2:
+Wie geht es voran, wer arbeitet an was?
+Die Gruppen arbeiten an den eingeplanten Stories, zusätzlich wird
+weiter mitdokumentiert.
+
+Gibt es Probleme?
+Da zwei Kollegen zu spät gekommen sind, fehlen nun die zu Beginn
+gezeigten Grundlagen - diese mussten/müssen nun erst erarbeitet werden.
+Die Dukomentation ist mit weiterem Aufwand verbunden
+
 
 
 4. Sprint-Retrospektive
