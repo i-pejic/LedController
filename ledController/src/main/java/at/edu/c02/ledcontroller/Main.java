@@ -25,8 +25,16 @@ public class Main {
             if(input.equalsIgnoreCase("demo"))
             {
                 ledController.demo();
-            }
-            else if (input.equalsIgnoreCase("status")) {
+            } else if (input.equalsIgnoreCase("off")) {
+                ledController.turnOffAllLeds();
+
+            } else if (input.equalsIgnoreCase("OneLight")) {
+                ledController.turnOneLight();
+
+            } else if (input.equalsIgnoreCase("TurnAllLightson")) {
+                ledController.turnAlleLighton();
+
+            } else if (input.equalsIgnoreCase("status")) {
                 System.out.println("Please specify LED id");
                 input = reader.readLine();
                 ledController.getLight(Integer.parseInt(input));

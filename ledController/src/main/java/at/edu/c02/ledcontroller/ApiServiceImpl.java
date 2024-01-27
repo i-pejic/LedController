@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 
 /**
  * This class should handle all HTTP communication with the server.
@@ -99,19 +100,23 @@ public class ApiServiceImpl implements ApiService {
 
 }
 
+
     @Override
     public JSONObject setLed(int id, String color, boolean state) throws IOException {
         URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/setLight"
 );
         JSONObject requestBody = new JSONObject();
-        requestBody.put("color", "#f00");
-        requestBody.put("state", true);
-        requestBody.put("id", 15);
 
 
+            requestBody.put("color", color);
+            requestBody.put("state", state);
+            requestBody.put("id", id);
+            return performApiRequest(url, "PUT", requestBody.toString());
 
 
-
-        return performApiRequest(url, "PUT", requestBody.toString());
+//        requestBody.put("color", color);
+//        requestBody.put("state", state);
+//        requestBody.put("id", id);
+//        return performApiRequest(url, "PUT", requestBody.toString());
     }
 }
