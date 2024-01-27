@@ -23,15 +23,23 @@ Story 2.2 hängt von Story 2.1 ab
 2. Sprint (Umsetzung)
 -------------------------------------------------------------------------
 Vorkommnisse/Bemerkungen:
-
+Unnötige Verzögerung, da secret key nicht rechtzeitig angefragt wurde
 
 
 3. Daily Scrum Meetings
 -------------------------------------------------------------------------
 Meeting 1:
 Wie geht es voran, wer arbeitet an was?
+Gruppe 1 arbeiten noch an Story 2.1, ist kurz vor Fertigstellung
+Gruppe 2 bereitet den Test für Story 2.1 vor, da Umsetzung von
+2.2 noch nicht möglich
 
 Gibt es Probleme?
+Wir haben nicht damit gerechnet, dass die Bearbeitung unsrer noblen
+Anfrage nach einem secret key, welcher uns von nöten ist, soviel Zeit in
+Anspruch nimmt. Wir abermals unnotwendig Zeit verloren, die Anfrage nach
+dem geheimen Schlüssel hätte schon früher erfolgen sollen, doch daran hat
+niemand gedacht.
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
