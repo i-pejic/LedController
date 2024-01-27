@@ -54,7 +54,7 @@ Es gibt Probleme, die Zeit reicht bei weitem nicht für die Umsetzung.
 Bei der Planung wurde der Umstand, dass zwei Kollegen zu spät kamen
 nicht berücksichtigt, was zu großen Verzögerungen führte, da
 erst das Framework/Workspace eingerichtet werden musste, und dann auch
-noch kurz die API besprochen werden musste
+noch kurz die API besprochen werden musste.
 
 
 
