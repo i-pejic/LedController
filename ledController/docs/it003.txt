@@ -43,9 +43,13 @@ niemand gedacht.
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
+Wir kämpfen noch mit Story 2.1, wir bekommen noch den in den Folien angeführten
+Fehler 405.
 
 Gibt es Probleme?
-
+Zu allem Überluss kamen nun auch technische Schwierigkeiten (IntellliJ) bei
+zwei Mitarbeitern hinzu, welche behoben werden mussten, uns aber viel
+Zeit kosteten.
 
 
 4. Sprint-Retrospektive
