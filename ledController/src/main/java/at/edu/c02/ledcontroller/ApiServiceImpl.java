@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -27,11 +28,18 @@ public class ApiServiceImpl implements ApiService {
      */
 
 
-    private JSONObject performApiRequest(URL url) throws IOException {
+    private JSONObject performApiRequest(URL url,String method, String requestBody) throws IOException {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        connection.setRequestMethod("GET");
+        connection.setRequestMethod(method);
         connection.setRequestProperty("X-Hasura-Group-ID", "Todo");
-
+        connection.setRequestProperty("Content-Type", "application/json");
+        if ("POST".equals(method) || "PUT".equals(method)) {
+            connection.setDoOutput(true);
+            try (OutputStream os = connection.getOutputStream()) {
+                os.write(requestBody.getBytes());
+                os.flush();
+            }
+        }
         int responseCode = connection.getResponseCode();
         if (responseCode != HttpURLConnection.HTTP_OK) {
             throw new IOException("Error: API request failed with response code " + responseCode);
@@ -52,7 +60,7 @@ public class ApiServiceImpl implements ApiService {
     public JSONObject getLights() throws IOException
     {
         URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/getLights");
-        return performApiRequest(url);}
+        return performApiRequest(url, "GET", null);}
         // Connect to the server
 //        URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/getLights");
 //        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -85,7 +93,18 @@ public class ApiServiceImpl implements ApiService {
     @Override
    public JSONObject getLight(int id) throws IOException {
         URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/lights/" + id);
-        return performApiRequest(url);
+        return performApiRequest(url,"GET", null);
 
 
-}}
+}
+
+    @Override
+    public JSONObject setLed(int id, String color, boolean state) throws IOException {
+        URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/lights/" + id);
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("color", color);
+        requestBody.put("state", state);
+
+        return performApiRequest(url, "PUT", requestBody.toString());
+    }
+}
