@@ -1,0 +1,35 @@
+1. Sprint-Planning
+-------------------------------------------------------------------------
+
+Stories aus dem Backlog, die in dieser Iteration umgesetzt werden:
+Story 1.1 - Einzel-Status-Abfrage
+Story 1.2 - Gruppen-Status-Abfrage
+Story 1.3 - Status-Abfrage
+
+Gemeinsame Aufwandabschätzung:
+Story 1.1 - Einzel-Status-Abfrage:          15 Minuten
+Story 1.2 - Gruppen-Status-Abfrage:         20 Minuten
+Story 1.3 - Status-Abfrage:                 10 Minuten
+
+Unterteilung in Tasks:
+Die Unterteilung in weitere Tasks haben wir nicht für nötig befunden.
+
+Festlegen, welches Paar welche Tasks erledigt
+Story 1.1 - Einzel-Status-Abfrage:          Gruppe 1
+Story 1.2 - Gruppen-Status-Abfrage:         Gruppe 2
+Story 1.3 - Status-Abfrage:                 Gruppe, die früher fertig
+
+Abhängigkeiten der Stories:
+Story 1.3 hängt von Story 1.1 und Story 1.2 ab
+
+
+2. Sprint (Umsetzung)
+-------------------------------------------------------------------------
+
+
+3. Daily Scrum Meetings
+-------------------------------------------------------------------------
+
+
+4. Sprint-Retrospektive
+-------------------------------------------------------------------------
