@@ -45,13 +45,16 @@ Die Dukomentation ist mit weiterem Aufwand verbunden
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
-Die Gruppen arbeiten an den eingeplanten Stories, zusätzlich wird
-weiter mitdokumentiert.
+Gruppe 1 hat die Funktion implementiert, allerdings noch nicht getestet.
+Gruppe 2 hängt noch bei bei Story 1.2, Definition Trennzeichen zur
+Identifikation der einelnen LEDs
 
 Gibt es Probleme?
-Da zwei Kollegen zu spät gekommen sind, fehlen nun die zu Beginn
-gezeigten Grundlagen - diese mussten/müssen nun erst erarbeitet werden.
-Die Dukomentation ist mit weiterem Aufwand verbunden
+Es gibt Probleme, die Zeit reicht bei weitem nicht für die Umsetzung.
+Bei der Planung wurde der Umstand, dass zwei Kollegen zu spät kamen
+nicht berücksichtigt, was zu großen Verzögerungen führte, da
+erst das Framework/Workspace eingerichtet werden musste, und dann auch
+noch kurz die API besprochen werden musste
 
 
 
