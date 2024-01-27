@@ -5,6 +5,9 @@ import org.json.JSONObject;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import java.io.IOException;
+import java.net.URL;
+
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
@@ -41,6 +44,27 @@ public class LedControllerTest {
         assertArrayEquals(expected, result);
 
 
+    }
+
+    @Test
+    public void testSetAndGetLedState() throws IOException {
+        // Setze das Verhalten des Mock-Servers für den setLedState-Endpunkt
+        mockServer.when(HttpRequest.request("/api/rest/lights/1")
+                .withMethod("PUT")
+                .withBody("{\"color\":\"red\",\"state\":true}")
+        ).respond(HttpResponse.response().withStatusCode(200));
+
+        // Erstelle ein ApiService mit der URL des Mock-Servers
+        ApiService apiService = new ApiServiceImpl(new URL("http://localhost:8080/api/rest/"));
+
+        // Führe die setLedState-Methode aus
+        assertDoesNotThrow(() -> {
+            apiService.setLedState(1, "red", true);
+        });
+
+        // Nach dem Setzen der LED-Farbe und des Zustands, frage den Status der LED ab
+        JSONObject ledStatus = apiService.getLights();
+        System.out.println("LED Status nach dem Setzen: " + ledStatus.toString());
     }
 
 }
