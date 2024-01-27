@@ -49,7 +49,8 @@ public class LedControllerImpl implements LedController {
         System.out.println("First light id is: " + firstLight.getInt("id"));
         System.out.println("First light color is: " + firstLight.getString("color"));
     }
-    public void getLight(int id) throws IOException{
+
+    public void getLight(int id) throws IOException {
         JSONObject response = apiService.getLight(id);
         JSONArray lights = response.getJSONArray("lights");
         // read the first json object of the lights array

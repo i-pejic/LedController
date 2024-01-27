@@ -1,7 +1,7 @@
 package at.edu.c02.ledcontroller;
 
 import org.json.JSONObject;
-
+import org.json.*;
 import java.io.IOException;
 
 public interface ApiService {
