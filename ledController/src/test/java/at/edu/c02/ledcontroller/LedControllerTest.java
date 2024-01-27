@@ -4,6 +4,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;
 import org.mockito.Mockito;
+import org.json.*;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.URL;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
@@ -42,5 +47,22 @@ public class LedControllerTest {
 
 
     }
+
+    @Test
+    public void testSetAndGetLedState() throws IOException {
+
+        // Setze das Verhalten des Mock-Servers für den setLedState-Endpunkt
+        ServerSocket ss = new ServerSocket();
+        ApiServiceImpl api = new ApiServiceImpl();
+        //comment
+
+        api.setLed(1,"red",true);
+
+        // Nach dem Setzen der LED-Farbe und des Zustands, frage den Status der LED ab
+        JSONObject ledStatus = api.getLights();
+        System.out.println("LED Status nach dem Setzen: " + ledStatus.toString());
+
+    }
+
 
 }
