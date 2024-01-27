@@ -55,7 +55,16 @@ Zeit kosteten.
 4. Sprint-Retrospektive
 -------------------------------------------------------------------------
 Wie ist der Sprint gelaufen?
+Leider wieder nicht ganz wie geplant, da neben organisatorischen
+Verzögerungen (siehe Anfrage secret key) auch noch technsiche Probleme
+dazu kamen. Es gab aber dennoch einen Fortschritt.
 
 Wurde alles geschafft?
+Trotz aller Schwierigkeiten und nicht Fertigstellung aller geplanten
+Stories gab es dennoch einen kleinen Teilerfolg, die LEDs leuchten endlich
 
 Was kann in den nächsten Sprints verbessert werden?
+Technische Probleme kann es immer geben, diese eventuell auch in der
+Planung berücksichtigen. Organisatorische Verzögerungen sollten vermieden
+werden, in dem benötigte Ressourcen rechtzeitig angefragt werden, und
+nicht erst dann wenn sie sofort benötigt werden.
