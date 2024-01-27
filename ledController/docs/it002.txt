@@ -52,8 +52,12 @@ Aufgrund der Abhängigkeiten paralleles Entwickeln schwierig.
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
+Zögerlich, es geht langsam voran.
+Story 1.3 noch nicht fertiggestellt
+Story 3.1 implementiert - muss aber noch getestet werden
 
 Gibt es Probleme?
+Generell bessere Java Programmierkenntnisse wären sehr hilfreich... :(
 
 
 
