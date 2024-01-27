@@ -50,7 +50,15 @@ Aktuell läuft noch alles nach Plan
 4. Sprint-Retrospektive
 -------------------------------------------------------------------------
 Wie ist der Sprint gelaufen?
+Das was geplant wurde, wurde auch umgesetzt. Wir haben einerseits
+ein bisschen ein besseres Gefühl dafür, was wir in der Gruppe schaffen
+können, und andererseits wurde auch das Framework besser verstanden,
+was die Schätzung bei der Planung verbesserte
 
 Wurde alles geschafft?
+Story 2.2 war eingeplant, und diese wurde auch umgesetzt
 
 Was kann in den nächsten Sprints verbessert werden?
+Abschließend kann man sagen gibt es sehr viele Dinge, die man in die
+Planung miteinbeziehen muss, was eine genaue Planung recht schwer
+macht, vor allem wenn man auch kaum Erfahrung in diesem Bereich hat.
