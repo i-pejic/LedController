@@ -10,8 +10,8 @@ Story 2.3 - Lauflicht
 Gemeinsame Aufwandabschätzung:
 Story 1.3 - Status-Abfrage:                 5 Story Points
 Story 2.1 - Setzen einer LED:               7 Story Points
-Story 2.2 - Ausschalten aller LEDs:         7 Minuten
-Story 2.3 - Lauflicht:                      50 Minuten
+Story 2.2 - Ausschalten aller LEDs:         7 Story Points
+Story 2.3 - Lauflicht:                      50 Story Points
 
 Unterteilung in Tasks:
 Die Unterteilung in weitere Tasks haben wir nicht für nötig befunden.
@@ -64,7 +64,12 @@ Generell bessere Java Programmierkenntnisse wären sehr hilfreich... :(
 4. Sprint-Retrospektive
 -------------------------------------------------------------------------
 Wie ist der Sprint gelaufen?
+Die Planung war schon etwas realistischer
 
 Wurde alles geschafft?
+Es wurde nicht alles geschafft was geplant war, allerdings war die
+Planung schon um einiges realistischer als im ersten Epic.
 
 Was kann in den nächsten Sprints verbessert werden?
+Da unsere Java Kentnisse noch ziemlich begrenzt sind, diesen Umstand
+noch mehr berücksichtigen bei der kommenden Planung.
