@@ -41,8 +41,14 @@ Vorkommnisse/Bemerkungen:
 -------------------------------------------------------------------------
 Meeting 1:
 Wie geht es voran, wer arbeitet an was?
+Story 1.3 bereits zur Hälfte fertig
+Story 2.1 Einlesen in Thematik
 
 Gibt es Probleme?
+Story 2.1 gestaltet sich schwieriger als gedacht, derzeit noch einlesen in
+Thematik.
+Der Dokumentationsaufwand ist nach wie vor enorm.
+Aufgrund der Abhängigkeiten paralleles Entwickeln schwierig.
 
 Meeting 2:
 Wie geht es voran, wer arbeitet an was?
@@ -53,8 +59,8 @@ Gibt es Probleme?
 
 4. Sprint-Retrospektive
 -------------------------------------------------------------------------
-wie ist der Sprint gelaufen?
+Wie ist der Sprint gelaufen?
 
-wurde alles geschafft?
+Wurde alles geschafft?
 
-was kann in den nächsten Sprints verbessert werden?
+Was kann in den nächsten Sprints verbessert werden?
