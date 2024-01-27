@@ -31,7 +31,7 @@ public class ApiServiceImpl implements ApiService {
     private JSONObject performApiRequest(URL url,String method, String requestBody) throws IOException {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod(method);
-        connection.setRequestProperty("X-Hasura-Group-ID", "Todo");
+        connection.setRequestProperty("X-Hasura-Group-ID", "");
         connection.setRequestProperty("Content-Type", "application/json");
         if ("POST".equals(method) || "PUT".equals(method)) {
             connection.setDoOutput(true);
@@ -101,10 +101,16 @@ public class ApiServiceImpl implements ApiService {
 
     @Override
     public JSONObject setLed(int id, String color, boolean state) throws IOException {
-        URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/lights/" + id);
+        URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/setLight"
+);
         JSONObject requestBody = new JSONObject();
-        requestBody.put("color", color);
-        requestBody.put("state", state);
+        requestBody.put("color", "#f00");
+        requestBody.put("state", true);
+        requestBody.put("id", 15);
+
+
+
+
 
         return performApiRequest(url, "PUT", requestBody.toString());
     }
