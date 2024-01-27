@@ -7,5 +7,11 @@ public interface LedController {
 
     void demo() throws IOException;
     void getLight(int id) throws IOException;
+
+    void turnOffAllLeds() throws IOException;
+
+    void turnOneLight() throws IOException;
+
+    void turnAlleLighton() throws IOException;
 }
 
