@@ -1,0 +1,51 @@
+1. Sprint-Planning
+-------------------------------------------------------------------------
+
+Stories aus dem Backlog, die in dieser Iteration umgesetzt werden:
+Story 2.2 - Ausschalten aller LEDs
+Wir beschränken uns zum Abschluss nur auf eine Story, da sich
+erfahrungsgemäß nicht mehr ausgehen wird, und damit wir in der
+Planung auch zumindest einen Erfolg feiern können :D
+
+Gemeinsame Aufwandabschätzung:
+Story 2.2 - Ausschalten aller LEDs          10 Story Points
+
+Unterteilung in Tasks:
+Die Unterteilung in weitere Tasks haben wir nicht für nötig befunden.
+
+Festlegen, welches Paar welche Tasks erledigt
+Story 2.2 - Ausschalten aller LEDs          Gruppe 2
+
+Abhängigkeiten der Stories:
+Story 2.2 hängt von Story 2.1 ab, welcher bereits implementiert wurde.
+Somit keine Abhängigkeiten mehr.
+
+
+
+2. Sprint (Umsetzung)
+-------------------------------------------------------------------------
+Vorkommnisse/Bemerkungen:
+
+
+
+3. Daily Scrum Meetings
+-------------------------------------------------------------------------
+Meeting 1:
+Wie geht es voran, wer arbeitet an was?
+
+Gibt es Probleme?
+
+Meeting 2:
+Wie geht es voran, wer arbeitet an was?
+
+Gibt es Probleme?
+
+
+
+4. Sprint-Retrospektive
+-------------------------------------------------------------------------
+Wie ist der Sprint gelaufen?
+
+Wurde alles geschafft?
+
+Was kann in den nächsten Sprints verbessert werden?
